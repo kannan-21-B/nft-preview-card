@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+
+*{
+    font-family:"Outfit", sans-serif;
+}
+body{
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{ 
+    background-color: hsl(216, 50%, 16%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;  
+    padding: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;   
+}
+.JulesWyvern{
+    color: hsl(178, 100%, 50%);
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+p{
+    color:  hsl(215, 51%, 70%);   
+}
+.para{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.time{
+    color: hsl(178, 100%, 50%);
+}
+
+.line{
+    display: block;
+}
+.image{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.one{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ic p{
+    margin-left:10px;
+}
+
+.pro{
+    width: 40px;
+    height: 40px;
+}
+
+.profile{
+     display: flex;
+    align-items: center;
+
+}
+
+.profile p{
+    margin-left: 20px;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: hsl(178, 100%, 50%);
+}
+
+@media screen and (max-width: 375px) {
+    body{
+    background-color:hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{ 
+    background-color: hsl(216, 50%, 16%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;  
+    padding: 20px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;   
+}
+.JulesWyvern{
+    color: hsl(0, 0%, 100%);
+}
+h2{
+    color: hsl(0, 0%, 100%);
+}
+p{
+    color:  hsl(215, 51%, 70%);   
+}
+.para{
+    color: hsl(215, 32%, 27%);
+    font-size: 18px;
+}
+
+.line{
+    display: block;
+}
+.image{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+}
+.one{
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+
+.ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ic p{
+    margin-left:10px;
+}
+
+.pro{
+    width: 40px;
+    height: 40px;
+}
+
+.profile{
+     display: flex;
+    align-items: center;
+
+}
+
+.profile p{
+    margin-left: 20px;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: hsl(178, 100%, 50%);
+}
+}
+
